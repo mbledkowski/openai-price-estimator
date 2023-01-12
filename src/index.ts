@@ -86,7 +86,6 @@ function main() {
     })
     .parseSync() as any;
 
-  console.log(argv);
   let input = "";
   // read stdin
   const rl = readline.createInterface({
