@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "preferGlobal": true,
   "files": [
-    "dist/*.js",
+    "dist/*.js"
   ],
   "bin": {
     "openai-price-estimator": "dist/index.js"
