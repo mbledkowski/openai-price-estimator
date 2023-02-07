@@ -1,8 +1,15 @@
 {
   "name": "openai-price-estimator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
+  "preferGlobal": true,
+  "files": [
+    "dist/*.js",
+  ],
+  "bin": {
+    "openai-price-estimator": "dist/index.js"
+  },
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
